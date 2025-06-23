@@ -31,7 +31,7 @@ export default function EducationSection() {
                 📍 {edu.location}
               </p>
 
-              {edu.achievements && edu.achievements.length > 0 && (
+              {/* {edu.achievements && edu.achievements.length > 0 && (
                 <motion.div
                   className="mt-3 p-4 bg-background/80 backdrop-blur-sm backdrop-filter rounded-lg border border-purple-500/20 dark:bg-card/10 dark:border-purple-500/10 shadow-sm"
                   initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export default function EducationSection() {
                     ))}
                   </ul>
                 </motion.div>
-              )}
+              )} */}
             </TimelineItem>
           ))}
         </div>
