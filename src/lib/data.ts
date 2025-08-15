@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "puneethbs8270@gmail.com",
   github: "https://github.com/puneeth-bs",
   linkedin: "https://www.linkedin.com/in/b-s-puneeth-099878194/",
-  leetcode: "https://leetcode.com/u/puneethbs007/"
+  leetcode: "https://leetcode.com/u/puneethbs007/",
 };
 
 export const workExperience = [
@@ -63,14 +63,9 @@ export const education = [
   },
 ];
 export const skills = {
-  programmingLanguages: ["Java", "JavaScript", "Python"],
-  frontendDevelopment: [
-    "Reactjs",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-  ],
-  backendDevelopment: ["Nodejs", "Expressjs", "Flask", "FastAPI"],
+  programmingLanguages: ["Java", "JavaScript/Typescript", "Python"],
+  frontendDevelopment: ["Reactjs", "Tailwind CSS", "HTML", "CSS"],
+  backendDevelopment: ["Nodejs", "Flask", "FastAPI"],
   databaseAndStorage: ["MySQL", "MongoDB", "Firebase", "InfluxDB"],
   cloudAndDevOps: ["AWS", "Ansible", "Jenkins", "Github Actions"],
   // toolsAndServices: [
@@ -92,6 +87,15 @@ export const projects = [
       "Designed and implemented a scalable image processing application leveraging Object-Oriented Programming (OOP) principles and MVC architecture for modularity and maintainability.",
       "Employed multiple design patterns, including Strategy and Factory patterns to ensure flexibility and extensibility in image transformation, filtering, and enhancement operations.",
       "Ensured robustness and code quality through rigorous unit testing, adherence to Java best practices, and well-structured code, facilitating reliable performance and easy maintenance.",
+    ],
+  },
+  {
+    title: "QuickMart",
+    github: "https://github.com/puneeth-bs/quickmart-react-app.git",
+    description: [
+      "Developed a full-stack marketplace application enabling buyers, sellers, and admins to interact seamlessly, leveraging React (Vite) and Tailwind CSS for a responsive, intuitive UI and Node.js/Express.js for robust backend APIs.",
+      "Integrated MongoDB for scalable data storage, AWS S3 for secure image hosting, and advanced search/filtering features to enhance product discovery and user engagement.",
+      "Implemented role-based functionalities for buyers, sellers, and admins, including secure authentication, profile management, product listing management, and review systems to ensure a complete e-commerce experience.",
     ],
   },
   {

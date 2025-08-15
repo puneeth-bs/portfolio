@@ -45,10 +45,17 @@ export default function HeroSection() {
             </motion.h1>
 
             <motion.p
-              className="text-xl text-muted-foreground mb-6"
+              className="text-xl text-muted-foreground mb-1"
               variants={childVariants}
             >
               Software Developer
+            </motion.p>
+
+            <motion.p
+              className="text-lg text-muted-foreground mb-6"
+              variants={childVariants}
+            >
+              CS Graduate Student @ Northeastern University
             </motion.p>
 
             <motion.div
@@ -97,6 +104,7 @@ export default function HeroSection() {
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
               </motion.a>
+
               <motion.a
                 href={personalInfo.leetcode}
                 target="_blank"
@@ -124,7 +132,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <img
-                src="/profile.jpg"
+                src="/portfolio/profile.jpg"
                 alt="Profile"
                 className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
                 style={{ objectFit: "cover" }}
@@ -134,14 +142,35 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
+          <div className="mt-6 bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 I am a passionate Software Developer with 2+ years of
-              experience in designing and developing software solutions. I
-              specialize in building scalable web solutions using various
-              frontend and backend technologies.
+              I’m a passionate <strong>Software Developer</strong> with{" "}
+              <strong>2+ years</strong> of experience designing and delivering{" "}
+              <strong>scalable software solutions</strong>. I specialize in{" "}
+              <strong>full-stack web development</strong> and thrive on solving
+              real-world problems.
             </p>
+
+            <ul className="pl-6 space-y-1 text-sm">
+              <li>
+                <strong>Languages:</strong> Java, Python, JavaScript/TypeScript
+              </li>
+              <li>
+                <strong>Web Technologies:</strong> React.js, Node.js, FastAPI,
+                Flask
+              </li>
+              <li>
+                <strong>Databases:</strong> MySQL, MongoDB, InfluxDB, Firebase
+              </li>
+              <li>
+                <strong>Cloud & DevOps:</strong> AWS, Docker, Ansible
+              </li>
+              <li>
+                <strong>Other Skills:</strong> Object Oriented Design, Design
+                Patterns, Data Structures & Algorithms
+              </li>
+            </ul>
           </div>
         </MotionWrapper>
       </div>

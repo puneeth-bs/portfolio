@@ -31,7 +31,7 @@ export default function ProjectsSection() {
                     {project.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="flex-grow">
+                <CardContent className="flex-grow mt-2">
                   <ul className="list-disc ml-4 space-y-1 text-sm group-hover:space-y-2 transition-all duration-300">
                     {project.description.map((desc, i) => (
                       <motion.li
@@ -47,6 +47,7 @@ export default function ProjectsSection() {
                     ))}
                   </ul>
                 </CardContent>
+
                 <CardFooter className="flex justify-center md:justify-start items-center border-t border-border/30 bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <motion.a
                     href={project.github}
